@@ -18,10 +18,22 @@ public class Main {
 
     private static int addArguments(String[] args) {
         int sum = 0;
-        for(int i = 0; i < args.length - 1; i++)
+
+        if(args[0].equals("-"))
         {
-            sum += Integer.valueOf(args[i]);
+            for(int i = 1; i < args.length - 1; i++)
+            {
+                sum -= Integer.valueOf(args[i]);
+            }
         }
+
+        else
+        {
+            for(int i = 0; i < args.length - 1; i++)
+            {
+                sum += Integer.valueOf(args[i]);
+            }
+        }  
 
         return sum;
     }
