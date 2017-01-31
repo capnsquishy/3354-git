@@ -8,7 +8,7 @@ public class Main {
             System.out.println(result);
         } catch (Exception e) {
             if(!Character.isDigit(args[0]) && !args[0].equals("-"))
-                System.err.println("Please provide only integers to add");
+                System.err.println("Please provide only integers to add, or use \"-\" as the first argument.");
             else if(args.length < 2)
                 System.err.println("Not enough arguments were input. Please enter two or more integers to add, or use \"-\" as the first argument.");
             else
