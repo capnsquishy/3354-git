@@ -1,0 +1,6 @@
+~\Desktop\GitProjects\3354-git [Assignment-1 +1 ~0 -0 ~]> git status
+On branch Assignment-1
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   status.txt
