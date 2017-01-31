@@ -1,0 +1,17 @@
+(a) How many commits exist in the repository after completing step 8 (Including commits made by the original author)?
+7 in total: 5 by the original author and two done by me.
+
+(b) When was the file .gitignore added?
+Tue Jan 24 22:28:11 2017 -0600
+
+(c) What is the difference between git log and git status?
+Git log will show all commit logs while git status will show the working tree status.
+
+(d) What is the difference between unstaged and untracked files?
+Unstaged files are listed in the index, but the contents inside of the working tree are different than that listed in the index. Untracked files are files that exist in the working tree of a git repository, bit is not listed in the index.
+
+(e) What is the difference between git checkout and git reset?
+The git checkout command "checks out" content from the repository and puts it inside the work tree. The git reset command modifies the index or changes which commit the branch head is pointing at.
+
+(f) What happens if you try to pull remote changes when there are uncommitted changes in your working directory?
+A prompt appers: "Cannot pull because there are uncommited changes. Commit or undo your changes before pulling again. See the Output window for details." If you use the git status command and there are red/green text, there have been changes made that have not been added and/or committed. Once added/committed, you can pull.
